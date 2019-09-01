@@ -6,9 +6,9 @@ import (
 	"os"
 )
 
-// ./mydocker run -ti /bin/sh
+// ./mydocker run -ti ls -l
 func main() {
-	
+
 	app := cli.NewApp()
 	app.Name = "mydocker"
 	app.Usage = "a simple docker replica"
